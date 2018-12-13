@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>10005 serial port</title>
+    <script>
+    var source=new EventSource("/10005/");
+    source.onmessage=function(event)
+    {
+        document.getElementById("result").innerHTML+=event.data + "<br />";
+    };
+    </script>
+</head>
+<body>
+    <div id="result"></div>
+</body>
+</html>

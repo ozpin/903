@@ -1,0 +1,110 @@
+0
+
+host# 
+host# who
+Login style      Username      IP                                        Login time
+console          admin         *                                         2018-11-05 21:01:23 
+host# 
+host# 
+host# 
+host# 
+host# who
+Login style      Username      IP                                        Login time
+console          admin         *                                         2018-11-05 21:01:23 
+
+host# 
+host# 
+host# sh inter
+A:admin status;L:link status; U:up;D:down;HU:Half duplex up;TD:Track down
+---------------------------------------------------------------------------
+ Interface  IP address         A  L  MAC address        Traffic Mode property  
+---------------------------------------------------------------------------
+ lo         127.0.0.1/8        U  U  -                  -            -                            
+ mgt        44.44.44.32/24     U  U  00:10:f3:26:5b:e6  -            -                            
+ eha        -                  U  D  00:10:f3:26:5b:e7  -            -                            
+ tunl0      -                  U  U  -                  -            -                            
+ ge1/0      -                  U  D  00:10:f3:49:b4:fc  -            -                            
+ ge1/1      -                  U  D  00:10:f3:49:b4:fd  -            -                            
+ ge1/2      -                  U  D  00:10:f3:49:b4:fe  -            -                            
+ ge1/3      -                  U  D  00:10:f3:49:b4:ff  -            -
+host# 
+host# 
+host# sh version 
+Model Name	: ASG-4500-E6000
+Serial Number	: 1002Z-024AZ-1T00L-PFOMN-YCZVW
+Software      	: V1.1-R2.2 SP 20180925 
+App Signature	: 20170209
+IPS Signature	: 20181102
+AV Signature	: 20181026
+URL Signature	: 20181026
+Compile time	: Sep 25 2018 15:24:16 Rev.15517 
+Copyright SunyaInfo Corp. 
+ 
+Uptime is 0 day 9 hour 50 minutes 8 seconds
+
+mgt:	RTL8168evl/8111evl v2.3LK-NAPI MAC address: 00:10:f3:26:5b:e6
+eha:	RTL8168evl/8111evl v2.3LK-NAPI MAC address: 00:10:f3:26:5b:e7
+ge1/0:	igb v3.4.8 MAC address: 00:10:f3:49:b4:fc
+ge1/1:	igb v3.4.8 MAC address: 00:10:f3:49:b4:fd
+ge1/2:	igb v3.4.8 MAC address: 00:10:f3:49:b4:fe
+ge1/3:	igb v3.4.8 MAC address: 00:10:f3:49:b4:ff
+ge1/4:	igb v3.4.8 MAC address: 00:10:f3:49:b5:00
+ge1/5:	igb v3.4.8 MAC address: 00:10:f3:49:b5:01
+ge1/6:	igb v3.4.8 MAC address: 00:10:f3:49:b5:02
+ge1/7:	igb v3.4.8 MAC address: 00:10:f3:49:b5:03
+host# 
+Username: asdfsad       admin
+Password: 
+host> en
+host# sh inter
+A:admin status;L:link status; U:up;D:down;HU:Half duplex up;TD:Track down
+---------------------------------------------------------------------------
+ Interface  IP address         A  L  MAC address        Traffic Mode property  
+---------------------------------------------------------------------------
+ lo         127.0.0.1/8        U  U  -                  -            -                            
+ mgt        44.44.44.32/24     U  U  00:10:f3:26:5b:e6  -            -                            
+ eha        -                  U  D  00:10:f3:26:5b:e7  -            -                            
+ tunl0      -                  U  U  -                  -            -                            
+ ge1/0      -                  U  D  00:10:f3:49:b4:fc  -            -                            
+ ge1/1      -                  U  D  00:10:f3:49:b4:fd  -            -                            
+ ge1/2      -                  U  D  00:10:f3:49:b4:fe  -            -                            
+ ge1/3      -                  U  D  00:10:f3:49:b4:ff  -            -                            
+ ge1/4      172.17.90.32/16    U  U  00:10:f3:49:b5:00  -            gre/nat                      
+ ge1/5      -                  U  U  00:10:f3:49:b5:01  -            untag vlan 1                   
+ ge1/6      -                  U  U  00:10:f3:49:b5:02  -            -                            
+ ge1/7      10.9.9.1/24        U  D  00:10:f3:49:b5:03  -            -                            
+ vlan1      10.6.6.1/24        U  U  00:10:f3:e6:01:50  -            nat                          
+ tunl1023   9.9.9.1/24         U  U  -                  -            -                            
+ gre1       6.6.6.1/24         U  D  ac:11:5a:20:00:00  -            -                            
+host# admin
+Password: 
+host> en
+host# sh inter
+A:admin status;L:link status; U:up;D:down;HU:Half duplex up;TD:Track down
+---------------------------------------------------------------------------
+ Interface  IP address         A  L  MAC address        Traffic Mode property  
+---------------------------------------------------------------------------
+ lo         127.0.0.1/8        U  U  -                  -            -                            
+ mgt        44.44.44.32/24     U  U  00:10:f3:26:5b:e6  -            -                            
+ eha        -                  U  D  00:10:f3:26:5b:e7  -            -                            
+ tunl0      -                  U  U  -                  -            -                            
+ ge1/0      -                  U  D  00:10:f3:49:b4:fc  -            -                            
+ ge1/1      -                  U  D  00:10:f3:49:b4:fd  -            -                            
+ ge1/2      -                  U  D  00:10:f3:49:b4:fe  -            -                            
+ ge1/3      -                  U  D  00:10:f3:49:b4:ff  -            -                            
+ ge1/4      172.17.90.32/16    U  U  00:10:f3:49:b5:00  -            gre/nat                      
+ ge1/5      -                  U  D  00:10:f3:49:b5:01  -            untag vlan 1                   
+ ge1/6      -                  U  U  00:10:f3:49:b5:02  -            -                            
+ ge1/7      10.9.9.1/24        U  U  00:10:f3:49:b5:03  -            -                            
+ vlan1      10.6.6.1/24        U  D  00:10:f3:e6:01:50  -            nat                          
+ tunl1023   9.9.9.1/24         U  U  -                  -            -                            
+ gre1       6.6.6.1/24         U  D  ac:11:5a:20:00:00  -            -                            
+host# sssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss<sssssssssssssssssssssssssssssssssssssssssssssssssss                         sssssssssssssssssssssssss                         ssssssssss
+% Unknown command. ssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssssss
+host# 
+host# 
+host# 
+host# 
+host#  Duplicate INTERFACE mgt IP address 44.44.44.32 from MAC address: 00:10:F3:66:41:8B
+ Duplicate INTERFACE ge1/4 IP address 172.17.90.32 from MAC address: 00:10:F3:66:41:8B
+[Core 1][VRF0][4294822305] Duplicate interface ge1/4 IP address 172.17.90.32 from MAC address 00:10:f3:66:41:8b

@@ -1,0 +1,98 @@
+
+S1200# 
+S1200# 
+S1200# 
+S1200# wefwe
+% Unknown command.
+S1200# 
+S1200# 
+S1200# 
+S1200# 
+S1200# 
+S1200# 
+S1200# 
+S1200# 
+S1200# 
+S1200# 
+S1200# 
+S1200# 
+S1200# 
+S1200# 
+S1200# 
+S1200# 
+S1200# 
+S1200# 
+S1200# 
+S1200# 
+S1200# who
+Login style      Username      IP                                        Login time          Category            Capable
+console          admin[I]      *                                         2018-12-08 23:37:54 CATEG_ACCOUNT            --
+                                                                                             CATEG_AUTHORITY          --
+                                                                                             CATEG_AUDIT              --
+                                                                                             CATEG_MANAGE             RW
+                      
+S1200# 
+S1200# 
+S1200# 
+S1200# 
+S1200# who
+Login style      Username      IP                                        Login time          Category            Capable
+console          admin[I]      *                                         2018-12-08 23:37:54 CATEG_ACCOUNT            --
+                                                                                             CATEG_AUTHORITY          --
+                                                                                             CATEG_AUDIT              --
+                                                                                             CATEG_MANAGE             RW
+                                                                                             CATEG_MONITOR            RW
+                                                                                             CATEG_STATISTICS         RW
+                                                                                             CATEG_CONFIG             RW
+                                                                                             CATEG_SYSLOG             RW
+                                                                                             CATEG_UPGRADE_REBOOT     RW
+
+
+S1200# who
+Login style      Username      IP                                        Login time          Category            Capable
+console          admin[I]      *                                         2018-12-08 23:37:54 CATEG_ACCOUNT            --
+                                                                                             CATEG_AUTHORITY          --
+                                                                                             CATEG_AUDIT              --
+                                                                                             CATEG_MANAGE             RW
+                                                                                             CATEG_MONITOR            RW
+                                                                                             CATEG_STATISTICS         RW
+                                                                                             CATEG_CONFIG             RW
+                                                                                             CATEG_SYSLOG             RW
+                                                                                             CATEG_UPGRADE_REBOOT     RW
+S1200# 
+S1200# 
+S1200# 
+S1200# 
+S1200# 
+S1200# 
+S1200# who
+Login style      Username      IP                                        Login time          Category            Capable
+console          admin[I]      *                                         2018-12-08 23:37:54 CATEG_ACCOUNT            --
+                                                                                             CATEG_AUTHORITY          --
+                                                                                             CATEG_AUDIT              --
+                                                                                             CATEG_MANAGE             RW
+                                                                                             CATEG_MONITOR            RW
+                                                                                             CATEG_STATISTICS         RW
+                                                                                             CATEG_CONFIG             RW
+                                                                                             CATEG_SYSLOG             RW
+                                                                                             CATEG_UPGRADE_REBOOT     RW
+S1200# 
+S1200# sh version 
+Model Name	: SURF-NGSA-S2100
+Serial Number	: A008H-004BI-1N00D-XRI7Q-MTU41
+SurfOS        	: V10.0 
+App Signature	: 20160506
+IPS Signature	: 20181116
+AV Signature	: 20181109
+URL Signature	: 20181108
+Compile time	: Sep  7 2018 00:20:16 
+Copyright SurfInfo Corp. 
+ 
+Uptime is 5 day 7 hour 51 minutes 56 seconds
+
+mgt:	e1000e v2.1.4-NAPI MAC address: 68:ed:a4:04:65:fe
+ge0/0:	e1000e v2.1.4-NAPI MAC address: 68:ed:a4:04:65:ff
+ge0/1:	e1000e v2.1.4-NAPI MAC address: 68:ed:a4:04:66:00
+ge0/2:	e1000e v2.1.4-NAPI MAC address: 68:ed:a4:04:66:01
+ge0/3:	e1000e v2.1.4-NAPI MAC address: 68:ed:a4:04:66:02
+S1200# 

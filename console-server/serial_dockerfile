@@ -1,0 +1,11 @@
+FROM django:latest
+ENV PYTHONUNBUFFERED 1
+COPY ./django_web/ /usr/src/django_web
+COPY ./single_console_connect.py /usr/src/single_console_connect.py
+RUN mkdir /code
+WORKDIR /code
+ADD ./requirements.txt /code/
+RUN pip install -r requirements.txt
+WORKDIR /usr/src/django_web/mysite/
+
+CMD python3 manage.py runserver 0:80
